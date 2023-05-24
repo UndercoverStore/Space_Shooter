@@ -11,7 +11,7 @@ void Game::initializeWindow()//creating window
     window = new sf::RenderWindow(sf::VideoMode(800,600), "Space Shooter!", sf::Style::Default);
     window->setFramerateLimit(144);
     //window.setFramerateLimit(FPS); //second option to set Frame limit
-}
+}//////////////////////////////////////////
 //Constractor/Destructor
 Game::Game()
 {
